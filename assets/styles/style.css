@@ -82,11 +82,14 @@ nav h2 {
 }
 
 .apply_now {
+  display: block;
+  text-decoration: none;
   width: fit-content;
   margin: 20px auto;
   padding: 30px;
   border-radius: 5px;
   cursor: pointer;
+  color: white;
   background-color: #243342;
   transition: all 0.3s;
 }
