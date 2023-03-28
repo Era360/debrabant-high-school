@@ -37,7 +37,7 @@ body {
   font-size: larger;
 }
 
-.student_details input {
+input {
   padding: 5px 3px;
   border-radius: 5px;
   /* background: none; */
@@ -70,6 +70,23 @@ body {
   text-transform: uppercase;
 }
 
-.select_container {
-  border: 1px solid black;
+.parent_container label {
+  display: block;
+  text-align: center;
+}
+
+.parental_other {
+  display: flex;
+  justify-content: space-around;
+}
+
+.submit input {
+  color: white;
+  margin: 10px auto;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(32, 37, 51);
 }
